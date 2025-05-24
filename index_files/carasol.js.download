@@ -1,0 +1,243 @@
+// JavaScript Document
+<!--
+
+var div_id_arraypd = ['smopdiv','smoddiv'];
+var link_id_arraypd = ['link_smop','link_smod'];
+//var link_id_array = ['aaa','sss'];
+function showDetailpd(div_id,div_class,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_arraypd.length;i++)
+	{
+	  if(div_id_arraypd[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_arraypd[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselect';
+	for(i=0;i<link_id_arraypd.length;i++)
+	{
+	  if(link_id_arraypd[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_arraypd[i]);
+	    y.className = "c_navitem";
+	  }	
+	}
+	
+
+}
+
+var div_id_arraysmop = ['smopstep1','smopstep2'];
+var link_id_arraysmop = ['link_smopstep1','link_smopstep2'];
+//var link_id_array = ['aaa','sss'];
+function showDetailsmop(div_id,div_class,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_arraysmop.length;i++)
+	{
+	  if(div_id_arraysmop[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_arraysmop[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselect2t';
+	for(i=0;i<link_id_arraysmop.length;i++)
+	{
+	  if(link_id_arraysmop[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_arraysmop[i]);
+	    y.className = "c_navitem2t";
+	  }	
+	}
+	
+
+}
+
+var div_id_arraysmod = ['smodstep1','smodstep2'];
+var link_id_arraysmod = ['link_smodstep1','link_smodstep2'];
+//var link_id_array = ['aaa','sss'];
+function showDetailsmod(div_id,div_class,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_arraysmod.length;i++)
+	{
+	  if(div_id_arraysmod[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_arraysmod[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselect2t';
+	for(i=0;i<link_id_arraysmod.length;i++)
+	{
+	  if(link_id_arraysmod[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_arraysmod[i]);
+	    y.className = "c_navitem2t";
+	  }	
+	}
+	
+
+}
+
+
+var div_id_array = ['step1','step2'];
+var link_id_array = ['link_step1','link_step2'];
+//var link_id_array = ['aaa','sss'];
+function showDetail(div_id,div_class,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_array.length;i++)
+	{
+	  if(div_id_array[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_array[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselect';
+	for(i=0;i<link_id_array.length;i++)
+	{
+	  if(link_id_array[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_array[i]);
+	    y.className = "c_navitem";
+	  }	
+	}
+	
+
+}
+
+//var div_id_array = ['anaylsis','strategy','branding','wdesign','copywright','seo','smmb','wheel-bg8','evmc','webanalysis'];
+var div_id_array2 = ['step4','step5'];
+var link_id_array2 = ['link_step4','link_step5'];
+//var link_id_array = ['aaa','sss'];
+function showDetail2(div_id,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_array2.length;i++)
+	{
+	  if(div_id_array2[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_array2[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselect';
+	for(i=0;i<link_id_array2.length;i++)
+	{
+	  if(link_id_array2[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_array2[i]);
+	    y.className = "c_navitem";
+	  }	
+	}
+	
+
+}
+
+var div_id_arrayprd = ['prd1','prd2'];
+var link_id_arrayprd = ['link_prd1','link_prd2'];
+//var link_id_array = ['aaa','sss'];
+function showDetailprd (div_id,div_class,link_id) 
+{
+//	alert(div_id);
+	var target_obj = document.getElementById(div_id);
+//	target_obj.className = div_class;
+	target_obj.style.display = 'inline';
+	for(i=0;i<div_id_arrayprd.length;i++)
+	{
+	  if(div_id_arrayprd[i] != div_id)
+	  {
+	  //  alert(div_id_array[i]);
+		tmp = div_id_arrayprd[i];
+	  	y = document.getElementById(tmp);
+	    y.style.display = "none";
+	  }	
+	}
+	
+	// change link class
+	var link_obj = document.getElementById(link_id);
+	link_obj.className = 'c_navselectprd';
+	for(i=0;i<link_id_arrayprd.length;i++)
+	{
+	  if(link_id_arrayprd[i] != link_id)
+	  {
+//	    alert(div_id_array[i]);
+	  	y = document.getElementById(link_id_arrayprd[i]);
+	    y.className = "c_navitemprd";
+	  }	
+	}
+	
+
+}
+
+
+
+	
+
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 2000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
